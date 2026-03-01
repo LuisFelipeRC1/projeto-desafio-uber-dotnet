@@ -9,7 +9,6 @@ API ASP.NET Core simples para consultar locações de filmes. Os dados são obti
 - `API/Controller/MovieLocationController.cs` - controlador REST que expõe endpoints.
 - `API/Model/MovieLocationRequest.cs` - DTO usado para deserializar o JSON externo.
 - `Application/Service/MovieLocationService.cs` - lógica para chamar o endpoint externo, cache e filtros.
-- `Domain/MovieLocation.cs` - model de domínio com validações (não utilizado diretamente).
 
 ## Requisitos
 
